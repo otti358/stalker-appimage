@@ -40,7 +40,7 @@ Installation directory ```$HOME/.local/apps/stalker```
 
 | Arguments                              |    | What its does                                   |
 |----------------------------------------|----|-------------------------------------------------|
-| --install /path/to/stalker/gog.exe     | => | Installed Stalker                               |
+| --install /path/to/exe                 | => | Installed Stalker                               |
 | --run                                  | => | Run Stalker                                     |
 | --remove                               | => | Removed Stalker                                 |
 | --winetricks                           | => | Start Winetricks                                |
