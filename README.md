@@ -51,3 +51,6 @@ Installation directory ```$HOME/.local/apps/stalker```
 **[Wine32-AppImage](https://github.com/sudo-give-me-coffee/wine32-deploy)**
 
 **[German Patch](https://www.compiware-forum.de/downloads/file/191-s-t-a-l-k-e-r-shadow-of-chernobyl-german-patch/#versions)**
+
+**[Logo](https://i.ytimg.com/vi/Qvtoxlzjmi0/maxresdefault.jpg)**
+
