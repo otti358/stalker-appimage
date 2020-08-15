@@ -29,9 +29,6 @@ ____ _  _ ____ ___  ____ _ _ _    ____ ____    ____ _  _ ____ ____ _  _ ____ ___
 ___] |  | |  | |__/ |__| |_|_|    |__| |       |___ |  | |___ |  \ | \| |__| |__]   |   |___ 
                                                                                              
 
-
-                                                                     
-
 "
 }
 
@@ -62,8 +59,8 @@ install() {
 
     # Copy Files
     cp "$script_res_dir/stalker-bottle.svg" "$HOME/.local/share/icons/"
-    cp -r "$script_dir/stalker-bottle" "$stalker_dir"
-    cp -r "$script_dir/stalker-appimage.sh" "$stalker_dir"
+    mv "$script_dir/stalker-bottle" "$stalker_dir"
+    cp "$script_dir/stalker-appimage.sh" "$stalker_dir"
 
     # Create Desktop File
     {
@@ -76,10 +73,6 @@ install() {
     
     # Notify
     notify-send -i "stalker-bottle" "Stalker successfully installed"
-
-    ########################################################
-    # TODO  !!! Hier kommt weiterer Installier Kram rein !!!
-    ########################################################
 }
 
 remove() {
@@ -131,8 +124,9 @@ if [ "$1" = "" ]; then
     echo -e "
     HELP:
     \t./stalker-appimage.sh --install /path/to/stalker/gog.exe
-    \t./stalker-appimage.sh --remove
     \t./stalker-appimage.sh --run
+    \t./stalker-appimage.sh --remove 
+    \t./stalker-appimage.sh --winetricks
     "
     exit 0
 fi
