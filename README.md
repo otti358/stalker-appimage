@@ -23,7 +23,7 @@ sudo apt install wget jq curl
 
 ## Install Stalker
 
-❗❗ Do not change the folder paths from the Windows Installer ❗❗
+Do not change the folder paths from the Windows Installer ❗❗
 
 Install via Winetricks ```directplay```
 
