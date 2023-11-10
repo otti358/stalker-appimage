@@ -1,9 +1,6 @@
 
 ![GitHub Logo](res/stalker_logo.jpg)
 
-<p align="center"><i>S.T.A.L.K.E.R.: Shadow of Chernobyl tells a story about survival in the Zone – a very dangerous place, where you fear not only the radiation, anomalies and deadly creatures, but other S.T.A.L.K.E.R.s, who have their own goals and wishes. Released in 2007.</i>
-</p>
-
 
 **Download: [stalker-appimage](https://github.com/linux-ott/stalker-appimage/releases/tag/stalker-appimage)**
 
