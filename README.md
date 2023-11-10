@@ -16,14 +16,14 @@ No wine installation required
 sudo pacman -S wget jq curl
 ```
 
-### Debian/Ubuntu/elementaryOS
+### Debian
 ```
 sudo apt install wget jq curl
 ```
 
 ## Install Stalker
 
-Do not change the folder-paths on Windows!
+❗❗ Do not change the folder paths from the Windows Installer ❗❗
 
 Install via Winetricks ```directplay```
 
